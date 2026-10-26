@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    border-bottom: 5px purple;
+  
+}
+
+.profile-pic{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #fdf0d5;
+    object-fit: cover;
+    filter: grayscale(40%) blur(1px);
+    transition: transform 0.4s ease, filter 0.4s ease;
+    transform: scale(1.1); /* Zooms in by 10% */
+    filter: grayscale(0%) blur(0px);
+}
+
+.card{
+    width: 400px;
+    display: flex;
+    text-align: center;
+    color: #003049;
+    background-color: #669bbc;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 10px #780000;
+    box-shadow: 10px 5px 5px #003049;
+    transform: translateY(-5px) scale(1.02);
+    transition: transform 0.9s ease, box-shadow 0.3s ease; 
+}
+
+.border{
+    border-bottom: 5px solid #780000;
+}
+
+.text{
+    border: none;
+}
